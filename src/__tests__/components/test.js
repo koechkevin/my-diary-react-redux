@@ -1,5 +1,5 @@
-describe('tests components', () =>{
-    it('passes', () =>{
+describe('tests components', () => {
+  it('passes', () => {
 
-    });
+  });
 });
