@@ -1,0 +1,32 @@
+{
+  "name": "my-diary-react-redux",
+  "version": "yarn install",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "repository": "https://github.com/koechkevin/my-diary-react-redux.git",
+  "author": "<koechkevin92@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "7",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1",
+    "webpack": "^4.25.1",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.1.2"
+  }
+}
