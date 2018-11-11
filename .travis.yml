@@ -13,5 +13,3 @@ install:
 script:
   - yarn test --coverage
 
-after_success:
-  - coveralls
