@@ -11,4 +11,8 @@ install:
   - yarn install
 
 script:
-  - yarn test
+  - yarn test --coverage
+  - coverage report -m
+
+after_success:
+  - coveralls
