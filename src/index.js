@@ -1,7 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Provider } from 'react-redux';
+import createHistory from 'history/createBrowserHistory';
+import { Router } from 'react-router-dom';
+import App from './App';
+import store from './store/index';
 
-const Index = () => <div id="test">Hello React</div>;
+const history = createHistory();
 
-ReactDOM.render(<Index />, document.getElementById('root'));
-export default Index;
+ReactDOM.render(
+  <Provider store={store}>
+    <Router history={history}>
+      <App />
+    </Router>
+  </Provider>,
+  document.getElementById('root'),
+);
