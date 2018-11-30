@@ -11,5 +11,10 @@ install:
   - yarn install
 
 script:
+  - yarn add coveralls
   - yarn test --coverage
+
+after_script:
+- COVERALLS_REPO_TOKEN=$repo_token
+- yarn coveralls
 

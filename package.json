@@ -3,9 +3,10 @@
   "version": "yarn install",
   "main": "index.js",
   "scripts": {
-    "start":"webpack-dev-server --open --mode development --hot",
+    "start": "webpack-dev-server --open --mode development --hot",
     "build": "webpack --config webpack.prod.js",
-    "test": "jest"
+    "test": "jest",
+    "coveralls": "node node_modules/.bin/coveralls"
   },
   "repository": "https://github.com/koechkevin/my-diary-react-redux.git",
   "author": "<koechkevin92@gmail.com>",
