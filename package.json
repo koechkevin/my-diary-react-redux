@@ -6,7 +6,7 @@
     "start": "webpack-dev-server --open --mode development --hot",
     "build": "webpack --config webpack.prod.js",
     "test": "jest",
-    "coveralls": "node node_modules/.bin/coveralls"
+    "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls"
   },
   "repository": "https://github.com/koechkevin/my-diary-react-redux.git",
   "author": "<koechkevin92@gmail.com>",
